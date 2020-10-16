@@ -1,0 +1,4 @@
+source;share/navatics_server/local_setup.bash
+source;share/navatics_server/local_setup.dsv
+source;share/navatics_server/local_setup.sh
+source;share/navatics_server/local_setup.zsh

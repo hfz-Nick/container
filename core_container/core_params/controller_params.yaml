@@ -1,0 +1,22 @@
+controller_node:
+  ros__parameters:
+    controller_update_hz: 200.0
+    refstate_update_hz: 50.0
+    rpm_update_hz: 200.0
+    controller:
+      position:
+        p_gain: [30.0, 30.0, 30.0]
+        d_gain: [5.0, 5.0, 5.0]
+        compensate_bias: false
+      cmd_force: [30.0, 10.0, 0.0]
+      max_velocity: [0.1, 0.1, 0.1]
+      orientation:
+        p_gain: [5.0, 5.0, 4.0]
+        d_gain: [1.0, 1.0, 1.0]
+        compensate_bias: false
+        flag: 0
+      bias:
+        weight: 77.4
+        buoyancy: 80.4
+        center_of_gravity: [0.0, 0.0, 0.0]
+        center_of_buoyancy: [-0.004, 0.0, -0.008]

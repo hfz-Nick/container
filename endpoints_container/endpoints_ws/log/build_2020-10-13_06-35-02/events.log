@@ -1,0 +1,494 @@
+[0.000000] (-) TimerEvent: {}
+[0.000644] (navatics_msgs) JobQueued: {'identifier': 'navatics_msgs', 'dependencies': OrderedDict()}
+[0.000739] (navatics_server) JobQueued: {'identifier': 'navatics_server', 'dependencies': OrderedDict([('navatics_msgs', '/home/ros/endpoints_ws/install/navatics_msgs')])}
+[0.000796] (navatics_msgs) JobStarted: {'identifier': 'navatics_msgs'}
+[0.018853] (navatics_msgs) JobProgress: {'identifier': 'navatics_msgs', 'progress': 'cmake'}
+[0.019642] (navatics_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/endpoints_ws/src/navatics_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_msgs'], 'cwd': '/home/ros/endpoints_ws/build/navatics_msgs', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs:'), ('SHLVL', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'eloquent'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/ros/endpoints_ws/build/navatics_msgs'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.083037] (navatics_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.099832] (-) TimerEvent: {}
+[0.145658] (navatics_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.145869] (navatics_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.200568] (-) TimerEvent: {}
+[0.217198] (navatics_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.217699] (navatics_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.290042] (navatics_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.294416] (navatics_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.301232] (-) TimerEvent: {}
+[0.402327] (-) TimerEvent: {}
+[0.503759] (-) TimerEvent: {}
+[0.532229] (navatics_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.534525] (navatics_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.604470] (-) TimerEvent: {}
+[0.627719] (navatics_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.628627] (navatics_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.705178] (-) TimerEvent: {}
+[0.714985] (navatics_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.719191] (navatics_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.805931] (-) TimerEvent: {}
+[0.909707] (-) TimerEvent: {}
+[1.010361] (-) TimerEvent: {}
+[1.102542] (navatics_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.110557] (-) TimerEvent: {}
+[1.112490] (navatics_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[1.138775] (navatics_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[1.139043] (navatics_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.210761] (-) TimerEvent: {}
+[1.311216] (-) TimerEvent: {}
+[1.340429] (navatics_msgs) StdoutLine: {'line': b'-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)\n'}
+[1.358755] (navatics_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[1.409451] (navatics_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[1.411518] (-) TimerEvent: {}
+[1.481718] (navatics_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") \n'}
+[1.496681] (navatics_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/eloquent/include  \n'}
+[1.512202] (-) TimerEvent: {}
+[1.572267] (navatics_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[1.612910] (-) TimerEvent: {}
+[1.714098] (-) TimerEvent: {}
+[1.734995] (navatics_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[1.740455] (navatics_msgs) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[1.814647] (-) TimerEvent: {}
+[1.817299] (navatics_msgs) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[1.837371] (navatics_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[1.839387] (navatics_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)\n'}
+[1.866789] (navatics_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[1.866986] (navatics_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.867071] (navatics_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[1.867147] (navatics_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[1.883499] (navatics_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.915331] (-) TimerEvent: {}
+[2.000518] (navatics_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.016087] (-) TimerEvent: {}
+[2.091623] (navatics_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.095006] (navatics_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/endpoints_ws/build/navatics_msgs\n'}
+[2.099024] (navatics_msgs) CommandEnded: {'returncode': 0}
+[2.102226] (navatics_msgs) JobProgress: {'identifier': 'navatics_msgs', 'progress': 'build'}
+[2.102547] (navatics_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/endpoints_ws/build/navatics_msgs', '--', '-j2', '-l2'], 'cwd': '/home/ros/endpoints_ws/build/navatics_msgs', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs:'), ('SHLVL', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'eloquent'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/ros/endpoints_ws/build/navatics_msgs'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[2.116610] (-) TimerEvent: {}
+[2.154925] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__cpp\x1b[0m\n'}
+[2.155328] (navatics_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.171956] (navatics_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.217571] (-) TimerEvent: {}
+[2.318294] (-) TimerEvent: {}
+[2.418976] (-) TimerEvent: {}
+[2.463894] (navatics_msgs) StdoutLine: {'line': b'[  6%] Built target navatics_msgs__cpp\n'}
+[2.494028] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.495719] (navatics_msgs) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.509575] (navatics_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/navatics_msgs__rosidl_generator_c.dir/rosidl_generator_c/navatics_msgs/msg/can_bus__functions.c.o\x1b[0m\n'}
+[2.519191] (-) TimerEvent: {}
+[2.563094] (navatics_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libnavatics_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.602542] (navatics_msgs) StdoutLine: {'line': b'[ 17%] Built target navatics_msgs__rosidl_generator_c\n'}
+[2.616252] (navatics_msgs) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.619423] (-) TimerEvent: {}
+[2.720172] (-) TimerEvent: {}
+[2.787050] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.820988] (-) TimerEvent: {}
+[2.822232] (navatics_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/navatics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navatics_msgs/msg/dds_fastrtps/can_bus__type_support.cpp.o\x1b[0m\n'}
+[2.921657] (-) TimerEvent: {}
+[2.936262] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.952640] (navatics_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/navatics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navatics_msgs/msg/can_bus__type_support.cpp.o\x1b[0m\n'}
+[3.022058] (-) TimerEvent: {}
+[3.123064] (-) TimerEvent: {}
+[3.223642] (-) TimerEvent: {}
+[3.315787] (navatics_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libnavatics_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.318548] (navatics_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX shared library libnavatics_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.324501] (-) TimerEvent: {}
+[3.404986] (navatics_msgs) StdoutLine: {'line': b'[ 34%] Built target navatics_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.416599] (navatics_msgs) StdoutLine: {'line': b'[ 34%] Built target navatics_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.418009] (navatics_msgs) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.425218] (-) TimerEvent: {}
+[3.430195] (navatics_msgs) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.525941] (-) TimerEvent: {}
+[3.626692] (-) TimerEvent: {}
+[3.712049] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.712399] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[3.727116] (-) TimerEvent: {}
+[3.729108] (navatics_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/navatics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navatics_msgs/msg/can_bus__type_support.c.o\x1b[0m\n'}
+[3.729488] (navatics_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/navatics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navatics_msgs/msg/can_bus__type_support_c.cpp.o\x1b[0m\n'}
+[3.765530] (navatics_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libnavatics_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.804983] (navatics_msgs) StdoutLine: {'line': b'[ 51%] Built target navatics_msgs__rosidl_typesupport_introspection_c\n'}
+[3.818562] (navatics_msgs) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.828150] (-) TimerEvent: {}
+[3.928906] (-) TimerEvent: {}
+[4.028019] (navatics_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libnavatics_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.029579] (-) TimerEvent: {}
+[4.070009] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[4.092403] (navatics_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/navatics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navatics_msgs/msg/can_bus__type_support.cpp.o\x1b[0m\n'}
+[4.129763] (-) TimerEvent: {}
+[4.131492] (navatics_msgs) StdoutLine: {'line': b'[ 62%] Built target navatics_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.144519] (navatics_msgs) StdoutLine: {'line': b'[ 65%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.230067] (-) TimerEvent: {}
+[4.330772] (-) TimerEvent: {}
+[4.406286] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[4.422499] (navatics_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/navatics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/navatics_msgs/msg/can_bus__type_support.cpp.o\x1b[0m\n'}
+[4.431502] (-) TimerEvent: {}
+[4.438962] (navatics_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libnavatics_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.458592] (navatics_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libnavatics_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.526685] (navatics_msgs) StdoutLine: {'line': b'[ 75%] Built target navatics_msgs__rosidl_typesupport_c\n'}
+[4.532189] (-) TimerEvent: {}
+[4.535822] (navatics_msgs) StdoutLine: {'line': b'[ 75%] Built target navatics_msgs__rosidl_typesupport_cpp\n'}
+[4.547963] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs\x1b[0m\n'}
+[4.560811] (navatics_msgs) StdoutLine: {'line': b'[ 75%] Built target navatics_msgs\n'}
+[4.573650] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__py\x1b[0m\n'}
+[4.586505] (navatics_msgs) StdoutLine: {'line': b'[ 79%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.633033] (-) TimerEvent: {}
+[4.733705] (-) TimerEvent: {}
+[4.834431] (-) TimerEvent: {}
+[4.935124] (-) TimerEvent: {}
+[5.005044] (navatics_msgs) StdoutLine: {'line': b'[ 79%] Built target navatics_msgs__py\n'}
+[5.018442] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__python\x1b[0m\n'}
+[5.035616] (-) TimerEvent: {}
+[5.044702] (navatics_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/navatics_msgs__python.dir/rosidl_generator_py/navatics_msgs/msg/_can_bus_s.c.o\x1b[0m\n'}
+[5.131369] (navatics_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/navatics_msgs/libnavatics_msgs__python.so\x1b[0m\n'}
+[5.136536] (-) TimerEvent: {}
+[5.206618] (navatics_msgs) StdoutLine: {'line': b'[ 86%] Built target navatics_msgs__python\n'}
+[5.218494] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[5.218791] (navatics_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[5.236760] (-) TimerEvent: {}
+[5.239503] (navatics_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/navatics_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/navatics_msgs/_navatics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[5.239840] (navatics_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/navatics_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/navatics_msgs/_navatics_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[5.312468] (navatics_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/navatics_msgs/navatics_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.312665] (navatics_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/navatics_msgs/navatics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[5.337008] (-) TimerEvent: {}
+[5.380717] (navatics_msgs) StdoutLine: {'line': b'[100%] Built target navatics_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.380945] (navatics_msgs) StdoutLine: {'line': b'[100%] Built target navatics_msgs__rosidl_typesupport_c__pyext\n'}
+[5.396007] (navatics_msgs) CommandEnded: {'returncode': 0}
+[5.437449] (-) TimerEvent: {}
+[5.458651] (navatics_msgs) JobProgress: {'identifier': 'navatics_msgs', 'progress': 'install'}
+[5.473321] (navatics_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/endpoints_ws/build/navatics_msgs', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/ros/endpoints_ws/build/navatics_msgs', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('LD_LIBRARY_PATH', '/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs:'), ('SHLVL', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'eloquent'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/ros/endpoints_ws/build/navatics_msgs'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[5.537529] (navatics_msgs) StdoutLine: {'line': b'[  6%] Built target navatics_msgs__cpp\n'}
+[5.537737] (-) TimerEvent: {}
+[5.538229] (navatics_msgs) StdoutLine: {'line': b'[ 13%] Built target navatics_msgs__rosidl_generator_c\n'}
+[5.563202] (navatics_msgs) StdoutLine: {'line': b'[ 34%] Built target navatics_msgs__rosidl_typesupport_introspection_c\n'}
+[5.563529] (navatics_msgs) StdoutLine: {'line': b'[ 34%] Built target navatics_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.591348] (navatics_msgs) StdoutLine: {'line': b'[ 55%] Built target navatics_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.591651] (navatics_msgs) StdoutLine: {'line': b'[ 55%] Built target navatics_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.618928] (navatics_msgs) StdoutLine: {'line': b'[ 65%] Built target navatics_msgs__rosidl_typesupport_cpp\n'}
+[5.623033] (navatics_msgs) StdoutLine: {'line': b'[ 75%] Built target navatics_msgs__rosidl_typesupport_c\n'}
+[5.638278] (-) TimerEvent: {}
+[5.647493] (navatics_msgs) StdoutLine: {'line': b'[ 75%] Built target navatics_msgs\n'}
+[5.672811] (navatics_msgs) StdoutLine: {'line': b'[ 79%] Built target navatics_msgs__py\n'}
+[5.713515] (navatics_msgs) StdoutLine: {'line': b'[ 86%] Built target navatics_msgs__python\n'}
+[5.738439] (-) TimerEvent: {}
+[5.741226] (navatics_msgs) StdoutLine: {'line': b'[100%] Built target navatics_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[5.741402] (navatics_msgs) StdoutLine: {'line': b'[100%] Built target navatics_msgs__rosidl_typesupport_c__pyext\n'}
+[5.763144] (navatics_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[5.774457] (navatics_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.774716] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/ament_index/resource_index/rosidl_interfaces/navatics_msgs\n'}
+[5.774965] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs\n'}
+[5.775109] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg\n'}
+[5.775195] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus.hpp\n'}
+[5.775326] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__struct.hpp\n'}
+[5.775446] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__traits.hpp\n'}
+[5.775532] (navatics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs\n'}
+[5.775607] (navatics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg\n'}
+[5.775856] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__functions.h\n'}
+[5.775966] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus.h\n'}
+[5.776045] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[5.776122] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__type_support.h\n'}
+[5.776195] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__struct.h\n'}
+[5.776323] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__functions.c\n'}
+[5.776445] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/library_path.sh\n'}
+[5.776525] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/library_path.dsv\n'}
+[5.776631] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_generator_c.so\n'}
+[5.776875] (navatics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_generator_c.so" to ""\n'}
+[5.777047] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_c.so\n'}
+[5.777344] (navatics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_c.so" to ""\n'}
+[5.777604] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_cpp.so\n'}
+[5.777895] (navatics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[5.778113] (navatics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs\n'}
+[5.778284] (navatics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg\n'}
+[5.778393] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__rosidl_typesupport_introspection_c.h\n'}
+[5.778518] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.778597] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__type_support.c\n'}
+[5.778670] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.778875] (navatics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[5.779084] (navatics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs\n'}
+[5.779225] (navatics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg\n'}
+[5.779302] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.779445] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__type_support.cpp\n'}
+[5.779520] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.779801] (navatics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[5.780005] (navatics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs\n'}
+[5.780150] (navatics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg\n'}
+[5.780249] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__rosidl_typesupport_fastrtps_c.h\n'}
+[5.780369] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[5.780452] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[5.780661] (navatics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[5.780874] (navatics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs\n'}
+[5.781038] (navatics_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg\n'}
+[5.781146] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/dds_fastrtps\n'}
+[5.781275] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.781353] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.781426] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.781746] (navatics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[5.781902] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/pythonpath.sh\n'}
+[5.782043] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/pythonpath.dsv\n'}
+[5.782175] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/__init__.py\n'}
+[5.814661] (navatics_msgs) StdoutLine: {'line': b"Compiling '/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/__init__.py'...\n"}
+[5.818856] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/msg\n'}
+[5.819114] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/msg/_can_bus.py\n'}
+[5.819205] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/msg/_can_bus_s.c\n'}
+[5.819282] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/msg/__init__.py\n'}
+[5.819424] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/navatics_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[5.819870] (navatics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/navatics_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[5.820087] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/navatics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[5.820571] (navatics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/navatics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[5.820748] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__python.so\n'}
+[5.821060] (navatics_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__python.so" to ""\n'}
+[5.821210] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/msg/CanBus.idl\n'}
+[5.821345] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/msg/CanBus.msg\n'}
+[5.821526] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/ament_index/resource_index/package_run_dependencies/navatics_msgs\n'}
+[5.821738] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/ament_index/resource_index/parent_prefix_path/navatics_msgs\n'}
+[5.821886] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/ament_prefix_path.sh\n'}
+[5.822039] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/ament_prefix_path.dsv\n'}
+[5.822180] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/path.sh\n'}
+[5.822419] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/path.dsv\n'}
+[5.822549] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/local_setup.bash\n'}
+[5.822697] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/local_setup.sh\n'}
+[5.822779] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/local_setup.zsh\n'}
+[5.822912] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/local_setup.dsv\n'}
+[5.823058] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.dsv\n'}
+[5.823196] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/ament_index/resource_index/packages/navatics_msgs\n'}
+[5.823328] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.823469] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.823621] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.823769] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.823920] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/navatics_msgsConfig.cmake\n'}
+[5.824064] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/navatics_msgsConfig-version.cmake\n'}
+[5.824201] (navatics_msgs) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.xml\n'}
+[5.828709] (navatics_msgs) CommandEnded: {'returncode': 0}
+[5.838601] (-) TimerEvent: {}
+[5.924757] (navatics_msgs) JobEnded: {'identifier': 'navatics_msgs', 'rc': 0}
+[5.925567] (navatics_server) JobStarted: {'identifier': 'navatics_server'}
+[5.934518] (navatics_server) JobProgress: {'identifier': 'navatics_server', 'progress': 'cmake'}
+[5.936381] (navatics_server) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/endpoints_ws/src/navatics_server', '-DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_server'], 'cwd': '/home/ros/endpoints_ws/build/navatics_server', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('LD_LIBRARY_PATH', '/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs'), ('SHLVL', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'eloquent'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/ros/endpoints_ws/build/navatics_server'), ('PYTHONPATH', '/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent')]), 'shell': False}
+[5.945901] (-) TimerEvent: {}
+[6.009491] (navatics_server) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[6.046112] (-) TimerEvent: {}
+[6.060632] (navatics_server) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[6.063616] (navatics_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[6.132734] (navatics_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[6.133190] (navatics_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[6.146839] (-) TimerEvent: {}
+[6.203656] (navatics_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.207793] (navatics_server) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.247522] (-) TimerEvent: {}
+[6.348949] (-) TimerEvent: {}
+[6.422284] (navatics_server) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.424171] (navatics_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.449070] (-) TimerEvent: {}
+[6.521563] (navatics_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.522079] (navatics_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.549508] (-) TimerEvent: {}
+[6.605801] (navatics_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.610100] (navatics_server) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.650253] (-) TimerEvent: {}
+[6.750899] (-) TimerEvent: {}
+[6.852093] (-) TimerEvent: {}
+[6.953342] (-) TimerEvent: {}
+[7.016856] (navatics_server) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.018870] (navatics_server) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[7.039504] (navatics_server) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[7.039692] (navatics_server) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.054079] (-) TimerEvent: {}
+[7.154795] (-) TimerEvent: {}
+[7.229706] (navatics_server) StdoutLine: {'line': b'-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[7.254247] (navatics_server) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[7.255477] (-) TimerEvent: {}
+[7.302392] (navatics_server) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[7.303630] (navatics_server) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.305491] (navatics_server) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.356247] (-) TimerEvent: {}
+[7.378170] (navatics_server) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.378805] (navatics_server) StdoutLine: {'line': b'-- Looking for pthread_create\n'}
+[7.455482] (navatics_server) StdoutLine: {'line': b'-- Looking for pthread_create - not found\n'}
+[7.455733] (navatics_server) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[7.456452] (-) TimerEvent: {}
+[7.518426] (navatics_server) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[7.518705] (navatics_server) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[7.556727] (-) TimerEvent: {}
+[7.590620] (navatics_server) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[7.591547] (navatics_server) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.630240] (navatics_server) StdoutLine: {'line': b'-- Found geometry_msgs: 0.8.1 (/opt/ros/eloquent/share/geometry_msgs/cmake)\n'}
+[7.657389] (-) TimerEvent: {}
+[7.663340] (navatics_server) StdoutLine: {'line': b'-- Found nav_msgs: 0.8.1 (/opt/ros/eloquent/share/nav_msgs/cmake)\n'}
+[7.677922] (navatics_server) StdoutLine: {'line': b'-- Found navatics_msgs: 0.0.0 (/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake)\n'}
+[7.758069] (-) TimerEvent: {}
+[7.836063] (navatics_server) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.858835] (-) TimerEvent: {}
+[7.899655] (navatics_server) StdoutLine: {'line': b'-- Generating done\n'}
+[7.901071] (navatics_server) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/endpoints_ws/build/navatics_server\n'}
+[7.907365] (navatics_server) CommandEnded: {'returncode': 0}
+[7.908245] (navatics_server) JobProgress: {'identifier': 'navatics_server', 'progress': 'build'}
+[7.908284] (navatics_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/endpoints_ws/build/navatics_server', '--', '-j2', '-l2'], 'cwd': '/home/ros/endpoints_ws/build/navatics_server', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('LD_LIBRARY_PATH', '/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs'), ('SHLVL', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'eloquent'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/ros/endpoints_ws/build/navatics_server'), ('PYTHONPATH', '/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent')]), 'shell': False}
+[7.952978] (navatics_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target navatics_server\x1b[0m\n'}
+[7.958938] (-) TimerEvent: {}
+[8.059341] (-) TimerEvent: {}
+[8.150056] (navatics_server) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/navatics_server.dir/library/endpoints.cpp.o\x1b[0m\n'}
+[8.150360] (navatics_server) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/navatics_server.dir/library/mavlink_msg_handler.cpp.o\x1b[0m\n'}
+[8.159826] (-) TimerEvent: {}
+[8.260486] (-) TimerEvent: {}
+[8.361230] (-) TimerEvent: {}
+[8.461824] (-) TimerEvent: {}
+[8.562661] (-) TimerEvent: {}
+[8.663379] (-) TimerEvent: {}
+[8.764112] (-) TimerEvent: {}
+[8.864492] (-) TimerEvent: {}
+[8.964908] (-) TimerEvent: {}
+[9.065302] (-) TimerEvent: {}
+[9.165893] (-) TimerEvent: {}
+[9.266825] (-) TimerEvent: {}
+[9.367534] (-) TimerEvent: {}
+[9.468069] (-) TimerEvent: {}
+[9.568898] (-) TimerEvent: {}
+[9.669509] (-) TimerEvent: {}
+[9.770148] (-) TimerEvent: {}
+[9.870579] (-) TimerEvent: {}
+[9.970941] (-) TimerEvent: {}
+[10.071353] (-) TimerEvent: {}
+[10.171762] (-) TimerEvent: {}
+[10.272482] (-) TimerEvent: {}
+[10.373201] (-) TimerEvent: {}
+[10.473630] (-) TimerEvent: {}
+[10.484512] (navatics_server) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/navatics_server.dir/library/mavlink_server.cpp.o\x1b[0m\n'}
+[10.574650] (-) TimerEvent: {}
+[10.675397] (-) TimerEvent: {}
+[10.776186] (-) TimerEvent: {}
+[10.877962] (-) TimerEvent: {}
+[10.978637] (-) TimerEvent: {}
+[11.079273] (-) TimerEvent: {}
+[11.180031] (-) TimerEvent: {}
+[11.280735] (-) TimerEvent: {}
+[11.381464] (-) TimerEvent: {}
+[11.482202] (-) TimerEvent: {}
+[11.582895] (-) TimerEvent: {}
+[11.683615] (-) TimerEvent: {}
+[11.784339] (-) TimerEvent: {}
+[11.885073] (-) TimerEvent: {}
+[11.985805] (-) TimerEvent: {}
+[12.086885] (-) TimerEvent: {}
+[12.188208] (-) TimerEvent: {}
+[12.270885] (navatics_server) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/navatics_server.dir/library/mavlink_state_pub.cpp.o\x1b[0m\n'}
+[12.289066] (-) TimerEvent: {}
+[12.389686] (-) TimerEvent: {}
+[12.490424] (-) TimerEvent: {}
+[12.591129] (-) TimerEvent: {}
+[12.691852] (-) TimerEvent: {}
+[12.792713] (-) TimerEvent: {}
+[12.893303] (-) TimerEvent: {}
+[12.994064] (-) TimerEvent: {}
+[13.094751] (-) TimerEvent: {}
+[13.195479] (-) TimerEvent: {}
+[13.296222] (-) TimerEvent: {}
+[13.396928] (-) TimerEvent: {}
+[13.497661] (-) TimerEvent: {}
+[13.598373] (-) TimerEvent: {}
+[13.699095] (-) TimerEvent: {}
+[13.799820] (-) TimerEvent: {}
+[13.900547] (-) TimerEvent: {}
+[14.001269] (-) TimerEvent: {}
+[14.102019] (-) TimerEvent: {}
+[14.202716] (-) TimerEvent: {}
+[14.303516] (-) TimerEvent: {}
+[14.404199] (-) TimerEvent: {}
+[14.504947] (-) TimerEvent: {}
+[14.605651] (-) TimerEvent: {}
+[14.706336] (-) TimerEvent: {}
+[14.807058] (-) TimerEvent: {}
+[14.907783] (-) TimerEvent: {}
+[15.008503] (-) TimerEvent: {}
+[15.109278] (-) TimerEvent: {}
+[15.210357] (-) TimerEvent: {}
+[15.311727] (-) TimerEvent: {}
+[15.412608] (-) TimerEvent: {}
+[15.513158] (-) TimerEvent: {}
+[15.613914] (-) TimerEvent: {}
+[15.714615] (-) TimerEvent: {}
+[15.815344] (-) TimerEvent: {}
+[15.916030] (-) TimerEvent: {}
+[16.016810] (-) TimerEvent: {}
+[16.117517] (-) TimerEvent: {}
+[16.218250] (-) TimerEvent: {}
+[16.318953] (-) TimerEvent: {}
+[16.419685] (-) TimerEvent: {}
+[16.520420] (-) TimerEvent: {}
+[16.621156] (-) TimerEvent: {}
+[16.721875] (-) TimerEvent: {}
+[16.822603] (-) TimerEvent: {}
+[16.923317] (-) TimerEvent: {}
+[17.024007] (-) TimerEvent: {}
+[17.124718] (-) TimerEvent: {}
+[17.225471] (-) TimerEvent: {}
+[17.326206] (-) TimerEvent: {}
+[17.426898] (-) TimerEvent: {}
+[17.443383] (navatics_server) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX static library libnavatics_server.a\x1b[0m\n'}
+[17.527624] (-) TimerEvent: {}
+[17.591961] (navatics_server) StdoutLine: {'line': b'[ 55%] Built target navatics_server\n'}
+[17.610745] (navatics_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target mavlink_server_test\x1b[0m\n'}
+[17.611210] (navatics_server) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target endpoints_node\x1b[0m\n'}
+[17.627828] (-) TimerEvent: {}
+[17.667973] (navatics_server) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/mavlink_server_test.dir/test/mavlink_server_test.cpp.o\x1b[0m\n'}
+[17.668249] (navatics_server) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/endpoints_node.dir/src/endpoints_node.cpp.o\x1b[0m\n'}
+[17.728563] (-) TimerEvent: {}
+[17.829290] (-) TimerEvent: {}
+[17.930000] (-) TimerEvent: {}
+[18.030731] (-) TimerEvent: {}
+[18.131453] (-) TimerEvent: {}
+[18.232181] (-) TimerEvent: {}
+[18.332895] (-) TimerEvent: {}
+[18.433621] (-) TimerEvent: {}
+[18.534351] (-) TimerEvent: {}
+[18.634769] (-) TimerEvent: {}
+[18.735797] (-) TimerEvent: {}
+[18.836531] (-) TimerEvent: {}
+[18.937243] (-) TimerEvent: {}
+[19.037980] (-) TimerEvent: {}
+[19.138716] (-) TimerEvent: {}
+[19.239419] (-) TimerEvent: {}
+[19.340134] (-) TimerEvent: {}
+[19.404264] (navatics_server) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable endpoints_node\x1b[0m\n'}
+[19.423415] (navatics_server) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mavlink_server_test\x1b[0m\n'}
+[19.440880] (-) TimerEvent: {}
+[19.541494] (-) TimerEvent: {}
+[19.642437] (-) TimerEvent: {}
+[19.743763] (-) TimerEvent: {}
+[19.844660] (-) TimerEvent: {}
+[19.945358] (-) TimerEvent: {}
+[20.008240] (navatics_server) StdoutLine: {'line': b'[100%] Built target mavlink_server_test\n'}
+[20.015908] (navatics_server) StdoutLine: {'line': b'[100%] Built target endpoints_node\n'}
+[20.030724] (navatics_server) CommandEnded: {'returncode': 0}
+[20.045529] (-) TimerEvent: {}
+[20.072859] (navatics_server) JobProgress: {'identifier': 'navatics_server', 'progress': 'install'}
+[20.073337] (navatics_server) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/endpoints_ws/build/navatics_server', '--target', 'install', '--', '-j2', '-l2'], 'cwd': '/home/ros/endpoints_ws/build/navatics_server', 'env': OrderedDict([('HOSTNAME', 'ubuntu'), ('LD_LIBRARY_PATH', '/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs'), ('SHLVL', '1'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'eloquent'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent'), ('LC_ALL', 'C.UTF-8'), ('PWD', '/home/ros/endpoints_ws/build/navatics_server'), ('PYTHONPATH', '/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent')]), 'shell': False}
+[20.145896] (-) TimerEvent: {}
+[20.155280] (navatics_server) StdoutLine: {'line': b'[ 55%] Built target navatics_server\n'}
+[20.190893] (navatics_server) StdoutLine: {'line': b'[100%] Built target mavlink_server_test\n'}
+[20.191091] (navatics_server) StdoutLine: {'line': b'[100%] Built target endpoints_node\n'}
+[20.212800] (navatics_server) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[20.222562] (navatics_server) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[20.223035] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/mavlink_server_test\n'}
+[20.227170] (navatics_server) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/mavlink_server_test" to ""\n'}
+[20.227643] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/endpoints_node\n'}
+[20.231155] (navatics_server) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/endpoints_node" to ""\n'}
+[20.231447] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/launch\n'}
+[20.231768] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/launch/navatics_endpoints.launch.py\n'}
+[20.232365] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/ament_index/resource_index/package_run_dependencies/navatics_server\n'}
+[20.232926] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/ament_index/resource_index/parent_prefix_path/navatics_server\n'}
+[20.233514] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/ament_prefix_path.sh\n'}
+[20.233868] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/ament_prefix_path.dsv\n'}
+[20.234393] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/path.sh\n'}
+[20.234757] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/path.dsv\n'}
+[20.235253] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.bash\n'}
+[20.235761] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.sh\n'}
+[20.236266] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.zsh\n'}
+[20.236781] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.dsv\n'}
+[20.237280] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.dsv\n'}
+[20.237753] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/ament_index/resource_index/packages/navatics_server\n'}
+[20.238112] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[20.238628] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/cmake/navatics_serverConfig.cmake\n'}
+[20.239081] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/cmake/navatics_serverConfig-version.cmake\n'}
+[20.239611] (navatics_server) StdoutLine: {'line': b'-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.xml\n'}
+[20.245509] (navatics_server) CommandEnded: {'returncode': 0}
+[20.246919] (-) TimerEvent: {}
+[20.307125] (navatics_server) JobEnded: {'identifier': 'navatics_server', 'rc': 0}
+[20.312135] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+position_estimator_node:
+  ros__parameters:
+    state_update_hz: 200.0
+    sensor_update_hz: 20.0
+    predictor:
+      name: "psu00"
+      dev_addr: 0x76
+      dev_port: "/dev/i2c-0"
+      pressure:
+        hz: 100.0
+        pos_gain: 1.0
+        vel_gain: 1.0

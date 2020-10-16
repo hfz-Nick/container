@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/endpoints_ws/build/navatics_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/ros/endpoints_ws/src/navatics_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_msgs
+Invoked command in '/home/ros/endpoints_ws/build/navatics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/ros/endpoints_ws/src/navatics_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_msgs
+Invoking command in '/home/ros/endpoints_ws/build/navatics_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs -- -j2 -l2
+Invoked command in '/home/ros/endpoints_ws/build/navatics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs -- -j2 -l2
+Invoking command in '/home/ros/endpoints_ws/build/navatics_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs --target install -- -j2 -l2
+Invoked command in '/home/ros/endpoints_ws/build/navatics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs --target install -- -j2 -l2

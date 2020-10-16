@@ -1,0 +1,10 @@
+can_interface_node:
+  ros__parameters:
+    serial:
+      port: "/dev/nvt_serial_stm"
+      baudrate: 115200
+      timeout_ms: 1000
+    transmitter:
+      update_hz: 1000.0
+    receiver:
+      update_hz: 500.0

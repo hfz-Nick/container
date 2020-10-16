@@ -1,0 +1,220 @@
+[0.201s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.201s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f5557b98c88>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=2, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f5557b98c88>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f5557ba8048>)
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.208s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ros/endpoints_ws'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_msgs) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_msgs) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_msgs) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_msgs) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_msgs) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_msgs) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_msgs) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_msgs) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navatics_msgs' with type 'ros.ament_cmake' and name 'navatics_msgs'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_server) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_server) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_server) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_server) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_server) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_server) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_server) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_server) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/navatics_server) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navatics_server' with type 'ros.ament_cmake' and name 'navatics_server'
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'navatics_msgs' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'navatics_msgs' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'navatics_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'navatics_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'navatics_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'navatics_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'navatics_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'navatics_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'navatics_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.255s] DEBUG:colcon.colcon_core.verb:Building package 'navatics_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/endpoints_ws/build/navatics_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/endpoints_ws/install/navatics_msgs', 'merge_install': False, 'path': '/home/ros/endpoints_ws/src/navatics_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'navatics_server' build argument 'cmake_args' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'navatics_server' build argument 'cmake_target' from command line to 'None'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'navatics_server' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.257s] Level 5:colcon.colcon_core.verb:set package 'navatics_server' build argument 'cmake_clean_cache' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'navatics_server' build argument 'cmake_clean_first' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'navatics_server' build argument 'cmake_force_configure' from command line to 'False'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'navatics_server' build argument 'ament_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'navatics_server' build argument 'catkin_cmake_args' from command line to 'None'
+[0.258s] Level 5:colcon.colcon_core.verb:set package 'navatics_server' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.258s] DEBUG:colcon.colcon_core.verb:Building package 'navatics_server' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ros/endpoints_ws/build/navatics_server', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ros/endpoints_ws/install/navatics_server', 'merge_install': False, 'path': '/home/ros/endpoints_ws/src/navatics_server', 'symlink_install': False, 'test_result_base': None}
+[0.258s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.260s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.261s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros/endpoints_ws/src/navatics_msgs' with build type 'ament_cmake'
+[0.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros/endpoints_ws/src/navatics_msgs'
+[0.265s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[0.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/endpoints_ws/build/navatics_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/ros/endpoints_ws/src/navatics_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_msgs
+[2.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/endpoints_ws/build/navatics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/ros/endpoints_ws/src/navatics_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_msgs
+[2.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/endpoints_ws/build/navatics_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs -- -j2 -l2
+[5.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/endpoints_ws/build/navatics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs -- -j2 -l2
+[5.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/endpoints_ws/build/navatics_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs --target install -- -j2 -l2
+[6.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navatics_msgs)
+[6.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/endpoints_ws/build/navatics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs --target install -- -j2 -l2
+[6.093s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs' for CMake module files
+[6.094s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs' for CMake config files
+[6.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('navatics_msgs', 'cmake_prefix_path')
+[6.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/cmake_prefix_path.ps1'
+[6.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/cmake_prefix_path.dsv'
+[6.096s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/cmake_prefix_path.sh'
+[6.097s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs/lib'
+[6.098s] Level 1:colcon.colcon_core.shell:create_environment_hook('navatics_msgs', 'ld_library_path_lib')
+[6.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/ld_library_path_lib.ps1'
+[6.099s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/ld_library_path_lib.dsv'
+[6.100s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/ld_library_path_lib.sh'
+[6.100s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs/bin'
+[6.100s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs/lib/pkgconfig/navatics_msgs.pc'
+[6.100s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages'
+[6.100s] Level 1:colcon.colcon_core.shell:create_environment_hook('navatics_msgs', 'pythonpath')
+[6.101s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/pythonpath.ps1'
+[6.101s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/pythonpath.dsv'
+[6.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/pythonpath.sh'
+[6.103s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.ps1'
+[6.104s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.dsv'
+[6.105s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.sh'
+[6.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.bash'
+[6.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.zsh'
+[6.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/endpoints_ws/install/navatics_msgs/share/colcon-core/packages/navatics_msgs)
+[6.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navatics_msgs)
+[6.171s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs' for CMake module files
+[6.171s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs' for CMake config files
+[6.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('navatics_msgs', 'cmake_prefix_path')
+[6.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/cmake_prefix_path.ps1'
+[6.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/cmake_prefix_path.dsv'
+[6.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/cmake_prefix_path.sh'
+[6.174s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs/lib'
+[6.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('navatics_msgs', 'ld_library_path_lib')
+[6.175s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/ld_library_path_lib.ps1'
+[6.175s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/ld_library_path_lib.dsv'
+[6.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/ld_library_path_lib.sh'
+[6.176s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs/bin'
+[6.176s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs/lib/pkgconfig/navatics_msgs.pc'
+[6.177s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages'
+[6.177s] Level 1:colcon.colcon_core.shell:create_environment_hook('navatics_msgs', 'pythonpath')
+[6.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/pythonpath.ps1'
+[6.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/pythonpath.dsv'
+[6.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/hook/pythonpath.sh'
+[6.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.ps1'
+[6.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.dsv'
+[6.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.sh'
+[6.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.bash'
+[6.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.zsh'
+[6.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/endpoints_ws/install/navatics_msgs/share/colcon-core/packages/navatics_msgs)
+[6.183s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ros/endpoints_ws/src/navatics_server' with build type 'ament_cmake'
+[6.183s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ros/endpoints_ws/src/navatics_server'
+[6.183s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.184s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.186s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/eloquent'
+[6.205s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/endpoints_ws/build/navatics_server': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/endpoints_ws/src/navatics_server -DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_server
+[8.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/endpoints_ws/build/navatics_server' returned '0': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/endpoints_ws/src/navatics_server -DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_server
+[8.169s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/endpoints_ws/build/navatics_server': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_server -- -j2 -l2
+[20.292s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/endpoints_ws/build/navatics_server' returned '0': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_server -- -j2 -l2
+[20.335s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ros/endpoints_ws/build/navatics_server': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_server --target install -- -j2 -l2
+[20.504s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navatics_server)
+[20.505s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server' for CMake module files
+[20.506s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server' for CMake config files
+[20.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ros/endpoints_ws/build/navatics_server' returned '0': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_server --target install -- -j2 -l2
+[20.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('navatics_server', 'cmake_prefix_path')
+[20.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/hook/cmake_prefix_path.ps1'
+[20.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/hook/cmake_prefix_path.dsv'
+[20.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/hook/cmake_prefix_path.sh'
+[20.509s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server/lib'
+[20.509s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server/bin'
+[20.509s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server/lib/pkgconfig/navatics_server.pc'
+[20.510s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server/lib/python3.6/site-packages'
+[20.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.ps1'
+[20.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.dsv'
+[20.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.sh'
+[20.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.bash'
+[20.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.zsh'
+[20.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/endpoints_ws/install/navatics_server/share/colcon-core/packages/navatics_server)
+[20.559s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navatics_server)
+[20.560s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server' for CMake module files
+[20.561s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server' for CMake config files
+[20.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('navatics_server', 'cmake_prefix_path')
+[20.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/hook/cmake_prefix_path.ps1'
+[20.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/hook/cmake_prefix_path.dsv'
+[20.563s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/hook/cmake_prefix_path.sh'
+[20.563s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server/lib'
+[20.564s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server/bin'
+[20.564s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server/lib/pkgconfig/navatics_server.pc'
+[20.564s] Level 1:colcon.colcon_core.environment:checking '/home/ros/endpoints_ws/install/navatics_server/lib/python3.6/site-packages'
+[20.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.ps1'
+[20.565s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.dsv'
+[20.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.sh'
+[20.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.bash'
+[20.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.zsh'
+[20.567s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ros/endpoints_ws/install/navatics_server/share/colcon-core/packages/navatics_server)
+[20.568s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.569s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.572s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.608s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[20.608s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[20.608s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[20.608s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[20.608s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[20.608s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.609s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/endpoints_ws/install/local_setup.ps1'
+[20.610s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros/endpoints_ws/install/_local_setup_util_ps1.py'
+[20.612s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/endpoints_ws/install/setup.ps1'
+[20.615s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/endpoints_ws/install/local_setup.sh'
+[20.615s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ros/endpoints_ws/install/_local_setup_util_sh.py'
+[20.616s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/endpoints_ws/install/setup.sh'
+[20.619s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/endpoints_ws/install/local_setup.bash'
+[20.621s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/endpoints_ws/install/setup.bash'
+[20.624s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ros/endpoints_ws/install/local_setup.zsh'
+[20.625s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ros/endpoints_ws/install/setup.zsh'

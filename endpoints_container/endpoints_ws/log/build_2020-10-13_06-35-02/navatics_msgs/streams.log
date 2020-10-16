@@ -1,0 +1,195 @@
+[0.020s] Invoking command in '/home/ros/endpoints_ws/build/navatics_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/ros/endpoints_ws/src/navatics_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_msgs
+[0.082s] -- The C compiler identification is GNU 7.5.0
+[0.145s] -- The CXX compiler identification is GNU 7.5.0
+[0.145s] -- Check for working C compiler: /usr/bin/cc
+[0.217s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.217s] -- Detecting C compiler ABI info
+[0.289s] -- Detecting C compiler ABI info - done
+[0.294s] -- Detecting C compile features
+[0.532s] -- Detecting C compile features - done
+[0.534s] -- Check for working CXX compiler: /usr/bin/c++
+[0.627s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.628s] -- Detecting CXX compiler ABI info
+[0.714s] -- Detecting CXX compiler ABI info - done
+[0.718s] -- Detecting CXX compile features
+[1.102s] -- Detecting CXX compile features - done
+[1.112s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[1.138s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.138s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.340s] -- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)
+[1.358s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.409s] -- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)
+[1.481s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1") 
+[1.496s] -- Found FastRTPS: /opt/ros/eloquent/include  
+[1.572s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[1.734s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[1.740s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[1.817s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.837s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[1.839s] -- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)
+[1.866s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[1.866s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.866s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[1.866s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[1.883s] -- Found PythonExtra: .so  
+[2.000s] -- Configuring done
+[2.091s] -- Generating done
+[2.094s] -- Build files have been written to: /home/ros/endpoints_ws/build/navatics_msgs
+[2.098s] Invoked command in '/home/ros/endpoints_ws/build/navatics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake /home/ros/endpoints_ws/src/navatics_msgs -DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_msgs
+[2.102s] Invoking command in '/home/ros/endpoints_ws/build/navatics_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs -- -j2 -l2
+[2.154s] [35m[1mScanning dependencies of target navatics_msgs__cpp[0m
+[2.155s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.171s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.463s] [  6%] Built target navatics_msgs__cpp
+[2.493s] [35m[1mScanning dependencies of target navatics_msgs__rosidl_generator_c[0m
+[2.495s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.509s] [ 13%] [32mBuilding C object CMakeFiles/navatics_msgs__rosidl_generator_c.dir/rosidl_generator_c/navatics_msgs/msg/can_bus__functions.c.o[0m
+[2.562s] [ 17%] [32m[1mLinking C shared library libnavatics_msgs__rosidl_generator_c.so[0m
+[2.602s] [ 17%] Built target navatics_msgs__rosidl_generator_c
+[2.616s] [ 20%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.786s] [35m[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.822s] [ 24%] [32mBuilding CXX object CMakeFiles/navatics_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/navatics_msgs/msg/dds_fastrtps/can_bus__type_support.cpp.o[0m
+[2.936s] [35m[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.952s] [ 27%] [32mBuilding CXX object CMakeFiles/navatics_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/navatics_msgs/msg/can_bus__type_support.cpp.o[0m
+[3.315s] [ 31%] [32m[1mLinking CXX shared library libnavatics_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.318s] [ 34%] [32m[1mLinking CXX shared library libnavatics_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.404s] [ 34%] Built target navatics_msgs__rosidl_typesupport_introspection_cpp
+[3.416s] [ 34%] Built target navatics_msgs__rosidl_typesupport_fastrtps_cpp
+[3.417s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.430s] [ 41%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.711s] [35m[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_introspection_c[0m
+[3.712s] [35m[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_fastrtps_c[0m
+[3.728s] [ 44%] [32mBuilding C object CMakeFiles/navatics_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/navatics_msgs/msg/can_bus__type_support.c.o[0m
+[3.729s] [ 48%] [32mBuilding CXX object CMakeFiles/navatics_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/navatics_msgs/msg/can_bus__type_support_c.cpp.o[0m
+[3.765s] [ 51%] [32m[1mLinking C shared library libnavatics_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.804s] [ 51%] Built target navatics_msgs__rosidl_typesupport_introspection_c
+[3.818s] [ 55%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.027s] [ 58%] [32m[1mLinking CXX shared library libnavatics_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.069s] [35m[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_cpp[0m
+[4.092s] [ 62%] [32mBuilding CXX object CMakeFiles/navatics_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/navatics_msgs/msg/can_bus__type_support.cpp.o[0m
+[4.131s] [ 62%] Built target navatics_msgs__rosidl_typesupport_fastrtps_c
+[4.144s] [ 65%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.406s] [35m[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_c[0m
+[4.422s] [ 68%] [32mBuilding CXX object CMakeFiles/navatics_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/navatics_msgs/msg/can_bus__type_support.cpp.o[0m
+[4.438s] [ 72%] [32m[1mLinking CXX shared library libnavatics_msgs__rosidl_typesupport_cpp.so[0m
+[4.458s] [ 75%] [32m[1mLinking CXX shared library libnavatics_msgs__rosidl_typesupport_c.so[0m
+[4.526s] [ 75%] Built target navatics_msgs__rosidl_typesupport_c
+[4.535s] [ 75%] Built target navatics_msgs__rosidl_typesupport_cpp
+[4.547s] [35m[1mScanning dependencies of target navatics_msgs[0m
+[4.560s] [ 75%] Built target navatics_msgs
+[4.573s] [35m[1mScanning dependencies of target navatics_msgs__py[0m
+[4.586s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.004s] [ 79%] Built target navatics_msgs__py
+[5.018s] [35m[1mScanning dependencies of target navatics_msgs__python[0m
+[5.044s] [ 82%] [32mBuilding C object CMakeFiles/navatics_msgs__python.dir/rosidl_generator_py/navatics_msgs/msg/_can_bus_s.c.o[0m
+[5.131s] [ 86%] [32m[1mLinking CXX shared library rosidl_generator_py/navatics_msgs/libnavatics_msgs__python.so[0m
+[5.206s] [ 86%] Built target navatics_msgs__python
+[5.218s] [35m[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_c__pyext[0m
+[5.218s] [35m[1mScanning dependencies of target navatics_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[5.239s] [ 89%] [32mBuilding C object CMakeFiles/navatics_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/navatics_msgs/_navatics_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.239s] [ 93%] [32mBuilding C object CMakeFiles/navatics_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/navatics_msgs/_navatics_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.312s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/navatics_msgs/navatics_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[5.312s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/navatics_msgs/navatics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[5.380s] [100%] Built target navatics_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.380s] [100%] Built target navatics_msgs__rosidl_typesupport_c__pyext
+[5.395s] Invoked command in '/home/ros/endpoints_ws/build/navatics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs -- -j2 -l2
+[5.473s] Invoking command in '/home/ros/endpoints_ws/build/navatics_msgs': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs --target install -- -j2 -l2
+[5.537s] [  6%] Built target navatics_msgs__cpp
+[5.538s] [ 13%] Built target navatics_msgs__rosidl_generator_c
+[5.563s] [ 34%] Built target navatics_msgs__rosidl_typesupport_introspection_c
+[5.563s] [ 34%] Built target navatics_msgs__rosidl_typesupport_fastrtps_cpp
+[5.591s] [ 55%] Built target navatics_msgs__rosidl_typesupport_fastrtps_c
+[5.591s] [ 55%] Built target navatics_msgs__rosidl_typesupport_introspection_cpp
+[5.618s] [ 65%] Built target navatics_msgs__rosidl_typesupport_cpp
+[5.622s] [ 75%] Built target navatics_msgs__rosidl_typesupport_c
+[5.647s] [ 75%] Built target navatics_msgs
+[5.672s] [ 79%] Built target navatics_msgs__py
+[5.713s] [ 86%] Built target navatics_msgs__python
+[5.741s] [100%] Built target navatics_msgs__rosidl_typesupport_fastrtps_c__pyext
+[5.741s] [100%] Built target navatics_msgs__rosidl_typesupport_c__pyext
+[5.762s] [36mInstall the project...[0m
+[5.774s] -- Install configuration: ""
+[5.774s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/ament_index/resource_index/rosidl_interfaces/navatics_msgs
+[5.774s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs
+[5.774s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg
+[5.774s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus.hpp
+[5.775s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__struct.hpp
+[5.775s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__traits.hpp
+[5.775s] -- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs
+[5.775s] -- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg
+[5.775s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__functions.h
+[5.775s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus.h
+[5.775s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/rosidl_generator_c__visibility_control.h
+[5.775s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__type_support.h
+[5.775s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__struct.h
+[5.776s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__functions.c
+[5.776s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/library_path.sh
+[5.776s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/library_path.dsv
+[5.776s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_generator_c.so
+[5.776s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_generator_c.so" to ""
+[5.776s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_c.so
+[5.777s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_c.so" to ""
+[5.777s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_cpp.so
+[5.777s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_cpp.so" to ""
+[5.777s] -- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs
+[5.778s] -- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg
+[5.778s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__rosidl_typesupport_introspection_c.h
+[5.778s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.778s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__type_support.c
+[5.778s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_introspection_c.so
+[5.778s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_introspection_c.so" to ""
+[5.778s] -- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs
+[5.778s] -- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg
+[5.779s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__rosidl_typesupport_introspection_cpp.hpp
+[5.779s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__type_support.cpp
+[5.779s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_introspection_cpp.so
+[5.779s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.779s] -- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs
+[5.779s] -- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg
+[5.780s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__rosidl_typesupport_fastrtps_c.h
+[5.780s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.780s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_fastrtps_c.so
+[5.780s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.780s] -- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs
+[5.780s] -- Up-to-date: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg
+[5.780s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/dds_fastrtps
+[5.781s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/can_bus__rosidl_typesupport_fastrtps_cpp.hpp
+[5.781s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/include/navatics_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.781s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_fastrtps_cpp.so
+[5.781s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.781s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/pythonpath.sh
+[5.781s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/pythonpath.dsv
+[5.781s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/__init__.py
+[5.814s] Compiling '/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/__init__.py'...
+[5.818s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/msg
+[5.818s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/msg/_can_bus.py
+[5.818s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/msg/_can_bus_s.c
+[5.819s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/msg/__init__.py
+[5.819s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/navatics_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[5.819s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/navatics_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[5.819s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/navatics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[5.820s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages/navatics_msgs/navatics_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""
+[5.820s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__python.so
+[5.820s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_msgs/lib/libnavatics_msgs__python.so" to ""
+[5.820s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/msg/CanBus.idl
+[5.821s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/msg/CanBus.msg
+[5.821s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/ament_index/resource_index/package_run_dependencies/navatics_msgs
+[5.821s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/ament_index/resource_index/parent_prefix_path/navatics_msgs
+[5.821s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/ament_prefix_path.sh
+[5.821s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/ament_prefix_path.dsv
+[5.821s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/path.sh
+[5.822s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/environment/path.dsv
+[5.822s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/local_setup.bash
+[5.822s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/local_setup.sh
+[5.822s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/local_setup.zsh
+[5.822s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/local_setup.dsv
+[5.822s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.dsv
+[5.822s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/ament_index/resource_index/packages/navatics_msgs
+[5.823s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/rosidl_cmake-extras.cmake
+[5.823s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.823s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.823s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.823s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/navatics_msgsConfig.cmake
+[5.823s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake/navatics_msgsConfig-version.cmake
+[5.823s] -- Installing: /home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/package.xml
+[5.828s] Invoked command in '/home/ros/endpoints_ws/build/navatics_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_msgs --target install -- -j2 -l2

@@ -1,0 +1,7 @@
+endpoints_node:
+  ros__parameters:
+    onshore_ip: "10.42.0.255"
+    onshore_port: 14555
+    uusv_port: 18570
+    mavlink_pub_rate:
+      state: 30.0

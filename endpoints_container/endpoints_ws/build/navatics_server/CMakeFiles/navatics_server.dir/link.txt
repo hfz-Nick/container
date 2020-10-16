@@ -1,0 +1,2 @@
+/usr/bin/ar qc libnavatics_server.a  CMakeFiles/navatics_server.dir/library/endpoints.cpp.o CMakeFiles/navatics_server.dir/library/mavlink_msg_handler.cpp.o CMakeFiles/navatics_server.dir/library/mavlink_server.cpp.o CMakeFiles/navatics_server.dir/library/mavlink_state_pub.cpp.o
+/usr/bin/ranlib libnavatics_server.a

@@ -1,0 +1,47 @@
+attitude_estimator_node:
+  ros__parameters:
+    state_update_hz: 200.0
+    sensor_update_hz: 20.0
+    predictor:
+      0:
+        name: "mpu00"
+        dev_addr: 0x69
+        dev_port: "/dev/i2c-0"
+        sensor_dir: "/home/ros/sensors"
+        gyro:
+          use: true
+          hz: 100.0
+          gain: 0.8
+          angular_vel_gain: 0.8
+          max: 250
+        acc:
+          use: false
+          hz: 100.0
+          gain: 0.1
+          max: 2
+        mag:
+          use: false
+          hz: 90.0
+          gain: 0.05
+    predictor:
+      1:
+        use: true
+        name: "mpu01"
+        dev_addr: 0x68
+        dev_port: "/dev/i2c-2"
+        sensor_dir: "/home/ros/sensors"
+        gyro:
+          use: true
+          hz: 200.0
+          gain: 0.7
+          angular_vel_gain: 0.7
+          max: 2000
+        acc:
+          use: true
+          hz: 100.0
+          gain: 0.1
+          max: 2
+        mag:
+          use: false
+          hz: 50.0
+          gain: 0.05

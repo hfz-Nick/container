@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  navatics_endpoints:
+    image: navatics_endpoints:deploy
+    volumes:
+      - ./endpoints_params:/home/ros/params/
+    restart: always
+    privileged: true
+    network_mode: host

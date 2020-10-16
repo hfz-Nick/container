@@ -1,0 +1,6 @@
+{
+  "package_name": "navatics_msgs",
+  "non_idl_tuples": [
+    "/home/ros/endpoints_ws/src/navatics_msgs:msg/CanBus.msg"
+  ]
+}

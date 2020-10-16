@@ -1,0 +1,84 @@
+[0.019s] Invoking command in '/home/ros/endpoints_ws/build/navatics_server': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/endpoints_ws/src/navatics_server -DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_server
+[0.084s] -- The C compiler identification is GNU 7.5.0
+[0.135s] -- The CXX compiler identification is GNU 7.5.0
+[0.138s] -- Check for working C compiler: /usr/bin/cc
+[0.207s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.208s] -- Detecting C compiler ABI info
+[0.278s] -- Detecting C compiler ABI info - done
+[0.282s] -- Detecting C compile features
+[0.497s] -- Detecting C compile features - done
+[0.499s] -- Check for working CXX compiler: /usr/bin/c++
+[0.596s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.596s] -- Detecting CXX compiler ABI info
+[0.680s] -- Detecting CXX compiler ABI info - done
+[0.685s] -- Detecting CXX compile features
+[1.091s] -- Detecting CXX compile features - done
+[1.093s] -- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+[1.114s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[1.114s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.304s] -- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)
+[1.329s] -- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+[1.377s] -- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+[1.378s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.380s] -- Looking for pthread.h
+[1.453s] -- Looking for pthread.h - found
+[1.453s] -- Looking for pthread_create
+[1.530s] -- Looking for pthread_create - not found
+[1.530s] -- Looking for pthread_create in pthreads
+[1.593s] -- Looking for pthread_create in pthreads - not found
+[1.593s] -- Looking for pthread_create in pthread
+[1.665s] -- Looking for pthread_create in pthread - found
+[1.666s] -- Found Threads: TRUE  
+[1.705s] -- Found geometry_msgs: 0.8.1 (/opt/ros/eloquent/share/geometry_msgs/cmake)
+[1.738s] -- Found nav_msgs: 0.8.1 (/opt/ros/eloquent/share/nav_msgs/cmake)
+[1.752s] -- Found navatics_msgs: 0.0.0 (/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake)
+[1.911s] -- Configuring done
+[1.974s] -- Generating done
+[1.975s] -- Build files have been written to: /home/ros/endpoints_ws/build/navatics_server
+[1.982s] Invoked command in '/home/ros/endpoints_ws/build/navatics_server' returned '0': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake /home/ros/endpoints_ws/src/navatics_server -DCMAKE_INSTALL_PREFIX=/home/ros/endpoints_ws/install/navatics_server
+[1.983s] Invoking command in '/home/ros/endpoints_ws/build/navatics_server': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_server -- -j2 -l2
+[2.027s] [35m[1mScanning dependencies of target navatics_server[0m
+[2.225s] [ 22%] [32mBuilding CXX object CMakeFiles/navatics_server.dir/library/endpoints.cpp.o[0m
+[2.225s] [ 22%] [32mBuilding CXX object CMakeFiles/navatics_server.dir/library/mavlink_msg_handler.cpp.o[0m
+[4.560s] [ 33%] [32mBuilding CXX object CMakeFiles/navatics_server.dir/library/mavlink_server.cpp.o[0m
+[6.345s] [ 44%] [32mBuilding CXX object CMakeFiles/navatics_server.dir/library/mavlink_state_pub.cpp.o[0m
+[11.518s] [ 55%] [32m[1mLinking CXX static library libnavatics_server.a[0m
+[11.666s] [ 55%] Built target navatics_server
+[11.685s] [35m[1mScanning dependencies of target mavlink_server_test[0m
+[11.686s] [35m[1mScanning dependencies of target endpoints_node[0m
+[11.742s] [ 77%] [32mBuilding CXX object CMakeFiles/mavlink_server_test.dir/test/mavlink_server_test.cpp.o[0m
+[11.743s] [ 77%] [32mBuilding CXX object CMakeFiles/endpoints_node.dir/src/endpoints_node.cpp.o[0m
+[13.479s] [ 88%] [32m[1mLinking CXX executable endpoints_node[0m
+[13.498s] [100%] [32m[1mLinking CXX executable mavlink_server_test[0m
+[14.083s] [100%] Built target mavlink_server_test
+[14.090s] [100%] Built target endpoints_node
+[14.106s] Invoked command in '/home/ros/endpoints_ws/build/navatics_server' returned '0': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_server -- -j2 -l2
+[14.148s] Invoking command in '/home/ros/endpoints_ws/build/navatics_server': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_server --target install -- -j2 -l2
+[14.230s] [ 55%] Built target navatics_server
+[14.265s] [100%] Built target mavlink_server_test
+[14.265s] [100%] Built target endpoints_node
+[14.287s] [36mInstall the project...[0m
+[14.297s] -- Install configuration: ""
+[14.297s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/mavlink_server_test
+[14.302s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/mavlink_server_test" to ""
+[14.302s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/endpoints_node
+[14.306s] -- Set runtime path of "/home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/endpoints_node" to ""
+[14.306s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/launch
+[14.306s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/launch/navatics_endpoints.launch.py
+[14.307s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/ament_index/resource_index/package_run_dependencies/navatics_server
+[14.307s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/ament_index/resource_index/parent_prefix_path/navatics_server
+[14.308s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/ament_prefix_path.sh
+[14.308s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/ament_prefix_path.dsv
+[14.309s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/path.sh
+[14.309s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/path.dsv
+[14.310s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.bash
+[14.310s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.sh
+[14.311s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.zsh
+[14.311s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.dsv
+[14.312s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.dsv
+[14.312s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/ament_index/resource_index/packages/navatics_server
+[14.313s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.313s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/cmake/navatics_serverConfig.cmake
+[14.313s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/cmake/navatics_serverConfig-version.cmake
+[14.314s] -- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.xml
+[14.320s] Invoked command in '/home/ros/endpoints_ws/build/navatics_server' returned '0': AMENT_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros/endpoints_ws/install/navatics_msgs:/opt/ros/eloquent LD_LIBRARY_PATH=/home/ros/endpoints_ws/install/navatics_msgs/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/lib:/usr/local/lib/navatics_libs PYTHONPATH=/home/ros/endpoints_ws/install/navatics_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros/endpoints_ws/build/navatics_server --target install -- -j2 -l2

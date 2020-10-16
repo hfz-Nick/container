@@ -1,0 +1,12 @@
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/install/strip.dir
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/install.dir
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/list_install_components.dir
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/rebuild_cache.dir
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/edit_cache.dir
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/navatics_server_uninstall.dir
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/uninstall.dir
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/navatics_server.dir
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/mavlink_server_test.dir
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/endpoints_node.dir
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/install/local.dir
+/home/ros/endpoints_ws/build/navatics_server/CMakeFiles/test.dir

@@ -1,0 +1,78 @@
+-- The C compiler identification is GNU 7.5.0
+-- The CXX compiler identification is GNU 7.5.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)
+-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)
+-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Looking for pthread_create
+-- Looking for pthread_create - not found
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 0.8.1 (/opt/ros/eloquent/share/geometry_msgs/cmake)
+-- Found nav_msgs: 0.8.1 (/opt/ros/eloquent/share/nav_msgs/cmake)
+-- Found navatics_msgs: 0.0.0 (/home/ros/endpoints_ws/install/navatics_msgs/share/navatics_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ros/endpoints_ws/build/navatics_server
+[35m[1mScanning dependencies of target navatics_server[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/navatics_server.dir/library/endpoints.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/navatics_server.dir/library/mavlink_msg_handler.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/navatics_server.dir/library/mavlink_server.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/navatics_server.dir/library/mavlink_state_pub.cpp.o[0m
+[ 55%] [32m[1mLinking CXX static library libnavatics_server.a[0m
+[ 55%] Built target navatics_server
+[35m[1mScanning dependencies of target mavlink_server_test[0m
+[35m[1mScanning dependencies of target endpoints_node[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/mavlink_server_test.dir/test/mavlink_server_test.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/endpoints_node.dir/src/endpoints_node.cpp.o[0m
+[ 88%] [32m[1mLinking CXX executable endpoints_node[0m
+[100%] [32m[1mLinking CXX executable mavlink_server_test[0m
+[100%] Built target mavlink_server_test
+[100%] Built target endpoints_node
+[ 55%] Built target navatics_server
+[100%] Built target mavlink_server_test
+[100%] Built target endpoints_node
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/mavlink_server_test
+-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/mavlink_server_test" to ""
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/endpoints_node
+-- Set runtime path of "/home/ros/endpoints_ws/install/navatics_server/lib/navatics_server/endpoints_node" to ""
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/launch
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/launch/navatics_endpoints.launch.py
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/ament_index/resource_index/package_run_dependencies/navatics_server
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/ament_index/resource_index/parent_prefix_path/navatics_server
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/ament_prefix_path.sh
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/ament_prefix_path.dsv
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/path.sh
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/environment/path.dsv
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.bash
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.sh
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.zsh
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/local_setup.dsv
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.dsv
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/ament_index/resource_index/packages/navatics_server
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/cmake/navatics_serverConfig.cmake
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/cmake/navatics_serverConfig-version.cmake
+-- Installing: /home/ros/endpoints_ws/install/navatics_server/share/navatics_server/package.xml
